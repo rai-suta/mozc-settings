@@ -1,0 +1,2 @@
+# mozc-settings
+Mozc settings
