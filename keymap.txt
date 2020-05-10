@@ -16,9 +16,11 @@ Composition	Ctrl Left	MoveCursorToBeginning
 Conversion	Ctrl Left	SegmentFocusFirst
 Composition	Ctrl Right	MoveCursorToEnd
 Conversion	Ctrl Right	SegmentFocusLast
+DirectInput	Ctrl Shift Space	IMEOn
 Composition	Ctrl Shift Space	InsertFullSpace
 Conversion	Ctrl Shift Space	InsertFullSpace
-Precomposition	Ctrl Shift Space	InsertFullSpace
+Precomposition	Ctrl Shift Space	Reconvert
+Precomposition	Ctrl Space	IMEOff
 Composition	Ctrl Space	InsertHalfSpace
 Conversion	Ctrl Space	InsertHalfSpace
 Conversion	Ctrl Up	ConvertPrev
