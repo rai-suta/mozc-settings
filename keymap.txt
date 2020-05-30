@@ -78,7 +78,13 @@ Composition	Enter	Commit
 Conversion	Enter	Commit
 Composition	F10	ConvertToHalfAlphanumeric
 Conversion	F10	ConvertToHalfAlphanumeric
-DirectInput	F13	IMEOn
+Composition	F13	ConvertToHalfAlphanumeric
+Conversion	F13	ConvertToHalfAlphanumeric
+Precomposition	F13	IMEOff
+Composition	F14	Convert
+Conversion	F14	ConvertNext
+DirectInput	F14	Reconvert
+Precomposition	F14	Reconvert
 Composition	F2	ConvertWithoutHistory
 Composition	F6	ConvertToHiragana
 Conversion	F6	ConvertToHiragana
